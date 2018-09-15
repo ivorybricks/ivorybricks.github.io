@@ -1,0 +1,253 @@
+.navbar {
+  margin-top: 2em;
+  padding-right: 1em;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: bold;
+  background-color:black;
+}
+
+.brand-img{
+  width: 40%;
+  height:auto;
+}
+
+.w-25{
+  width:25%;
+  height:auto;
+}
+
+.navbar-header {
+  color: white;
+  padding-left: 1em;
+}
+
+.categories {
+  color: white;
+  padding-right: 2em;
+}
+
+.head{
+  margin-bottom: 2em;
+  color:black;
+}
+
+.brand{
+  margin-top: 7em;
+}
+
+/* .aboutme {
+  padding-top: 5em;
+} */
+
+
+
+.myprojects{
+  margin-top: 2em;
+}
+
+.envelope{
+  text-align:center;
+}
+
+.para{
+  display: inline-block;
+  text-align: left;
+}
+
+.haveheart{
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
+}
+
+.brand, .aboutme, .myprojects, .aroundtheweb, .contactme {
+  margin-bottom:6em;
+  color: #932B2A;
+  padding-top:5em;
+}
+
+.aboutme{
+  padding-bottom: 8em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+p {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.7em;
+}
+
+ul {
+  list-style-type: none;
+}
+#rig {
+    max-width:100%;
+    margin:0 auto; /*center aligned*/
+    padding:0;
+    font-size:0; /* Remember to change it back to normal font size if have captions */
+    list-style:none;
+    background-color:#000;
+}
+#rig li {
+    display: inline-block;
+    *display:inline;/*for IE6 - IE7*/
+    width:25%;
+    vertical-align:middle;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+/* The wrapper for each item */
+.rig-cell {
+    /*margin:12px;
+    box-shadow:0 0 6px rgba(0,0,0,0.3);*/
+    display:block;
+    position: relative;
+    overflow:hidden;
+}
+
+/* If have the image layer */
+.rig-img {
+    display:block;
+    width: 100%;
+    height: auto;
+    border:none;
+    transform:scale(1);
+    transition:all 1s;
+}
+
+#rig li:hover .rig-img {
+    transform:scale(1.05);
+}
+
+/* If have the overlay layer */
+.rig-overlay {
+    position: absolute;
+    display:block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: #964a49 url(img/link.png) no-repeat center 20%;
+    background-size:50px 50px;
+    opacity:0;
+    filter:alpha(opacity=0);/*For IE6 - IE8*/
+    transition:all 0.6s;
+}
+#rig li:hover .rig-overlay {
+    opacity:0.85;
+}
+
+/* If have captions */
+.rig-text {
+    display:block;
+    padding:0 1rem;
+    box-sizing:border-box;
+    position:absolute;
+    left:0;
+    width:100%;
+    text-align:center;
+    font-size:2rem;
+    font-weight:bold;
+    font-family: 'Julius Sans One', sans-serif;
+    top:10%;
+    color:white;
+    opacity:0;
+    filter:alpha(opacity=0);/*For older IE*/
+    transform:translateY(-2.5rem);
+    transition:all .3s;
+
+}
+
+.desc{
+  font-weight: lighter;
+  top:43%;
+  /* text-align:left; */
+  font-size:1.5rem;
+}
+
+/* Code for displaying my projects */
+#rig li:hover .rig-text {
+    transform:translateY(0px);
+    opacity:0.9;
+}
+
+@media (max-width: 9000px) {
+    #rig li {
+        width:45%;
+    }
+}
+
+@media (max-width: 700px) {
+    #rig li {
+        width:33.33%;
+    }
+}
+
+@media (max-width: 550px) {
+    #rig li {
+        width:50%;
+    }
+}
+
+@media (max-width: 400px) {
+    #rig li {
+        width:80%;
+    }
+}
+
+/* Around the Web text */
+
+.weblink{
+  color: #932B2A;
+}
+
+.weblink:hover{
+  color:black;
+    text-decoration: underline;
+}
+
+
+/* Buttons */
+/*Bootstrap button outline override*/
+.btn-outline {
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+}
+
+.btn-dark.btn-outline{
+  border-color:#343a40;
+  color:#343a40;
+}
+
+.btn-info.btn-outline {
+    color: #5bc0de;
+}
+.btn-success.btn-outline {
+    color: #5cb85c;
+}
+
+.btn-dark.btn-outline:hover,
+.btn-success.btn-outline:hover,
+.btn-info.btn-outline:hover{
+  color:#fff;
+}
+.btn-dark.btn-outline:hover{
+  background-color:#343a40;
+}
+
+/* Text for footer */
+.ftext{
+  text-align:left;
+  color: white;
+  background-color: #080808;
+  font-family: 'Julius Sans One', sans-serif;
+}
