@@ -1,5 +1,6 @@
+
+
 .navbar {
-  margin-top: 2em;
   padding-right: 1em;
   font-family: 'Julius Sans One', sans-serif;
   font-weight: bold;
@@ -58,12 +59,18 @@
   text-align: center;
 }
 
-h1, h2 {
+h1 {
   font-family: 'Julius Sans One', sans-serif;
   text-align: center;
+  font-size: 3em;
 }
 
-.brand, .aboutme, .myprojects, .aroundtheweb, .contactme {
+h2 {
+  font-family: 'Crimson Text', serif;
+  text-align:center;
+}
+
+.brand, .aboutme, .myprojects, .socialplatforms, .contactme {
   margin-bottom:6em;
   color: #932B2A;
   padding-top:5em;
@@ -73,8 +80,8 @@ h1, h2 {
   padding-bottom: 8em;
 }
 
-h2 {
-  font-size: 3em;
+.myskills{
+  font-family: 'Arial', sans-serif;
 }
 
 p {
