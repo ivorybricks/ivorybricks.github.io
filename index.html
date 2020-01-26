@@ -41,136 +41,131 @@
 	<nav class="row navbar navbar-fixed-top navbar-inverse">
 		<div class="navbar-header">
 			<a class="navbar-brand">LC </a>
-			<!-- Button for dropdown menu that appears on smaller devices instead of full navbar -->
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
+									 <span class="sr-only">Toggle navigation</span>
+									 <span class="icon-bar"></span>
+									 <span class="icon-bar"></span>
+									 <span class="icon-bar"></span>
+							 </button>
 		</div>
-		
 		<div class="navbar-collapse collapse  navbar-right">
 
 			<!-- Navigation bar tabs: "About Me", "My Projects", "Around the Web", "Contact Me" -->
 			<ul class="nav navbar-nav  categories">
 				<li><a href="#aboutme" class="categoriestext nav-link nav-item ">About Me</a></li>
 				<li><a href="#myprojects" class="categoriestext nav-link nav-item">My Projects</a></li>
-				<li><a href="#aroundtheweb" class="categoriestext nav-link nav-item">Around the Web</a></li>
+				<li><a href="#socialplatforms" class="categoriestext nav-link nav-item">Social Platforms</a></li>
+				<!-- <li><a href="#contactme" class="categoriestext nav-link nav-item">Contact Me</a></li> -->
+
 			</ul>
 		</div>
 	</nav>
 
-	<!-- Div for text/content alignment -->
+
 	<div class="envelope container">
 
-		<!-- Image -->
-		<div class="row brand">
-		<img class="brand-img" src="https://s3.amazonaws.com/leslie.citrisky/carnation.png">
+		<div class="row brand ">
+			<img class="brand-img" src="https://s3.amazonaws.com/leslie.citrisky/carnation.png">
+
 		</div>
 
-		<!-- About Me section -->
+
 		<div class="row aboutme" id="aboutme">
-			<h2 class="head">About Me</h2>
+			<h1 class="head">About Me</h1>
+			
+			<!-- START -->
+			
 			<p class="para">
-				Hi, my name is Leslie, and I am fascinated by technology
-				and software development!
+				I'm currently studying Data Analytics. Some of my interests include software development, data science, and virtual reality. I'm always looking to learn more about technology!
 				<br/>
-				My goal is to gain more experience in the field of computer science,
-				and do more with technology.
-				<br/><br/> Look at my projects below to see what I've done so far.
+				
+				
+				<br/> Feel free to take a look at some of my projects below.<br/>
 
 			</p>
+
+			
 			<br/><br/>
 			<hr/>
-			
-			<!-- My Skills -->
-			<h3 class="para" style="font-size: 1.5em; ">My Skills:
-				<span class="badge badge-pill badge-dark">JAVA</span>
-				<span class="badge badge-pill badge-dark">HTML/CSS</span>
-				<span class="badge badge-pill badge-dark">BOOTSTRAP</span>
-				<span class="badge badge-pill badge-dark">JAVASCRIPT</span>
+			<h2 class="para myskills" style="font-size: 1.5em; font-weight: bold; ">My Skills:
 				<span class="badge badge-pill badge-dark">PYTHON</span>
-				<span class="badge badge-pill badge-dark">REACT</span>
-			</h3>
+				<span class="badge badge-pill badge-dark">SQL</span>
+				<span class="badge badge-pill badge-dark">JAVA</span>
+				<span class="badge badge-pill badge-dark">SWIFT</span>
+				<span class="badge badge-pill badge-dark">HTML/CSS</span>
+
+			</h2>
+
 		</div>
 
-		<!-- My Projects section -->
+		<!-- My projects section -->
+
 		<div class="row myprojects" id="myprojects">
-			<h2 class="head">My Projects</h2>
-			<p class="para">Click on a project be taken to its Github repository.</p> 
+			<h1 class="head">My Projects</h1>
+
 
 			<ul id="rig">
-				
-				<!-- Colorize project -->
 				<li>
-				<a class="rig-cell" target="blank" href="https://github.com/ivorybricks/colorize-java">
-            			<img class="rig-img" src="colorizedemo.png" />
-           			<span class="rig-overlay"></span>
-            			<span class="rig-text">Colorize</span>
-				<span class="rig-text desc">Change an image with a filter of your choice</span>
-     				</a>
+					<a class="rig-cell" target="blank" href="https://github.com/ivorybricks/colorize-java">
+            <img class="rig-img" src="colorizedemo.png" />
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Colorize</span>
+						<span class="rig-text desc">Change an image with a filter of your choice</span>
+        </a>
 				</li>
 
-				<!-- Morse Code Translator project -->
 				<li>
-				<a class="rig-cell" target="blank" href="https://github.com/ivorybricks/morse-code">
-            			<img class="rig-img" src="morsedemo.png"/>
-            			<span class="rig-overlay"></span>
-            			<span class="rig-text">Morse Code Translator</span>
-				<span class="rig-text desc">Translate from English, to Morse Code, and back</span>
-        			</a>
+					<a class="rig-cell" target="blank" href="https://github.com/ivorybricks/morse-code">
+            <img class="rig-img" src="morsedemo.png" />
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Morse Code Translator</span>
+						<span class="rig-text desc">Translate from English, to Morse Code, and back</span>
+        </a>
 				</li>
-				
-				<!-- Text Adventure Game project -->
 				<li>
-				<a class="rig-cell" target="blank" href="https://github.com/ivorybricks/text-adventure">
-				<img class="rig-img" src="textadventuredemo.png" />
-				<span class="rig-overlay"></span>
-				<span class="rig-text">Text Adventure Game</span>
-				<span class="rig-text desc">Choose your own adventure in this text-based game</span>
+					<a class="rig-cell" target="blank" href="https://github.com/ivorybricks/text-adventure">
+						<img class="rig-img" src="textadventuredemo.png" />
+						<span class="rig-overlay"></span>
+						<span class="rig-text">Text Adventure Game</span>
+						<span class="rig-text desc">Choose your own adventure in this text-based game</span>
 				</a>
 				</li>
 
-				<!-- Mentaliteen project -->
 				<li>
-				<a class="rig-cell" target="blank" href="https://github.com/ivorybricks/morse-code">
-				<img class="rig-img" src="mentaliteenpreview.png" />
-				<span class="rig-overlay"></span>
-				<span class="rig-text">Mentaliteen</span>
-				<span class="rig-text desc">Collaborative group project - website with info about common mental illnesses + how to help</span>
+					<a class="rig-cell" target="blank" href="https://github.com/ivorybricks/morse-code">
+						<img class="rig-img" src="mentaliteenpreview.png" />
+						<span class="rig-overlay"></span>
+						<span class="rig-text">Mentaliteen</span>
+						<span class="rig-text desc">Collaborative group project - website provides info on common mental illnesses in teens</span>
 				</a>
 				</li>
 			</ul>
 		</div>
 
-		<!-- Around the Web section -->
-		<div class="row aroundtheweb head" id="aroundtheweb">
-			<h2 class="head">Around the Web</h2>
+		<div class="row socialplatforms head" id="socialplatforms">
+			<h1 class="head">Social Platforms</h1>
+		
 
-			<!-- LinkedIn button -->
-			<a target="blank" class="btn btn-info btn-outline col-sm-2 col-sm-offset-2" 
-			   href="https://linkedin.com/in/leslie-c" role="button">
+			<a target = "blank" class="btn btn-info btn-outline col-sm-2 col-sm-offset-3" href="https://linkedin.com/in/leslie-c" role="button">
 			LinkedIn
 			</a>
 
-			<!-- Github button -->
-			<a target = "blank" class="btn btn-dark btn-outline col-sm-2 col-sm-offset-1" 
-			   href="https://github.com/ivorybricks" role="button">
+			<a target = "blank" class="btn btn-dark btn-outline col-sm-2 col-sm-offset-2" href="https://github.com/ivorybricks" role="button">
 			Github
 			</a>
+			
 
-			<!-- FreeCodeCamp button -->
-			<a target = "blank" class="btn btn-success btn-outline col-sm-2 col-sm-offset-1" 
-			   href="https://www.freecodecamp.org/ivorybricks" role="button">
+			<!-- <a target = "blank" class="btn btn-success btn-outline col-sm-2 col-sm-offset-1" href="" role="button">
 			FreeCodeCamp
-			</a>
+			</a> -->
+
 		</div>
+
+
 	</div>
 
-	<!-- Footer -->
-	<footer class="container-fluid ftext ">
-		Website by Leslie Citrisky.
-	</footer>
+	<footer class="container-fluid ftext "></footer>
+
 </body>
+
 </html>
